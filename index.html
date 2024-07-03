@@ -20,32 +20,57 @@
     <main>
         <section id="about" data-testid="aboutSection">
             <h2>About Me</h2>
-            <p>My name is Massaquoi L. Dehmie and I am an aspiring software developer from Liberia, West Africa. I currently study computer science online at the University of the People.</p>
+            <div class="about-content">
+                <div>
+                    <img src="./slackProfilePic.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+                </div>
+                <div>
+                    <p>My name is Massaquoi L. Dehmie and I am an aspiring software developer from Liberia, West Africa. I currently study computer science online at the University of the People.</p>
+                </div>
+
+            </div>
+           
+
         </section>
         <section id="goals" data-testid="goalsSection">
-            <h2>My Tech Goals for the Next 2 Years</h2>
-            <p>In the next 2 years, I aim to:</p>
-            <ul>
-                <li>Master HTML, CSS, and JavaScript.</li>
-                <li>Learn a front-end framework like React.</li>
-                <li>Become proficient in back-end development using Node.js.</li>
-                <li>Contribute to open-source projects.</li>
-                <li>Build a portfolio of projects to showcase my skills.</li>
-            </ul>
+            
+                <h2>My Tech Goals for the Next 2 Years</h2>
+               
+                    
+                    <div class="goals-div">
+                        <p>In the next 2 years, I aim to:</p>
+                        <ul>
+                            <li>Master HTML, CSS, and JavaScript.</li>
+                            <li>Learn a front-end framework like React.</li>
+                            <li>Become proficient in back-end development using Node.js.</li>
+                            <li>Contribute to open-source projects.</li>
+                            <li>Build a portfolio of projects to showcase my skills.</li>
+                        </ul>
+
+                    </div>
+           
         </section>
         <section id="contact" data-testid="contactSection">
             <h2>Contact Information</h2>
-            <p>Slack Display Name: <span data-testid="slackDisplayName">Massaquoi</span></p>
-            <p>Slack Email: <span data-testid="slackEmail">massaquoi2001@gmail.com</span></p>
-            <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
-            <p>Current Day of the Week: <span data-testid="currentDay"></span></p>
-            <p>Slack Profile Picture: <img src="./slackProfilePic.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture" ></p>
-            <p>Links:</p>
-            <ul>
-                <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
-                <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
-                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
-            </ul>
+            <div class="contact-div">
+                <div class="contact-info">
+                    <p>Slack Display Name: <span data-testid="slackDisplayName"><em>Massaquoi</em></span></p>
+                    <p>Slack Email: <span data-testid="slackEmail"><em>massaquoi2001@gmail.com</em></span></p>
+                    <p>Current Time (UTC): <em><span data-testid="currentTimeUTC"></span></em></p>
+                    <p>Current Day of the Week: <em><span data-testid="currentDay"></span></em></p>
+                </div>
+                
+                <div class="contact-links">
+                    <p>Links:</p>
+                    <ul>
+                        <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                        <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                        <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+           
         </section>
     </main>
     <footer>
